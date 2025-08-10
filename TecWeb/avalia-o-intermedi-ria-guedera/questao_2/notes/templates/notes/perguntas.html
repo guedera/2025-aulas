@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro de Perguntas</title>
+</head>
+<body>
+    <h1>Cadastro de Perguntas</h1>
+    
+    <form method="post">
+        {% csrf_token %}
+        <div>
+            <label for="enunciado">Enunciado:</label><br>
+            <textarea name="enunciado" rows="4" cols="50" required></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="resposta">Resposta:</label><br>
+            <input type="text" name="resposta" required placeholder="Verdadeiro ou Falso">
+        </div>
+        <br>
+        <div>
+            <label for="categoria">Categoria:</label><br>
+            <select name="categoria" id="categoria" required>
+                {% for categoria in categorias %}
+                    <option value="{{ categoria.id }}">{{ categoria.nome }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <br>
+        <button type="submit">Criar</button>
+    </form>
+    
+    <div>
+        <h2>Perguntas Cadastradas</h2>
+        {% if perguntas %}
+            <ul>
+                {% for pergunta in perguntas %}
+                    <li>{{ pergunta.enunciado }} ({{ pergunta.resposta_correta|yesno:"True,False" }}) ({{ pergunta.categoria.nome }})</li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>Nenhuma pergunta cadastrada.</p>
+        {% endif %}
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+Verde principal do Spotify: #1DB954
+
+Preto/cinza muito escuro (fundo principal): #191414
+
+Cinza escuro (áreas secundárias): #212121
+
+Branco (texto principal): #FFFFFF

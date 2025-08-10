@@ -1,0 +1,335 @@
+{
+    "id": "7dGJo4pcD2V6oG8kP0tJRR",
+    "name": "Eminem",
+    "verified": true,
+    "followers": 92428548,
+    "monthlyListeners": 78296887,
+    "worldRank": 11,
+    "topCities": [
+      {
+        "country": "ID",
+        "city": "Jakarta",
+        "numberOfListeners": 1135984
+      },
+      {
+        "country": "GB",
+        "city": "London",
+        "numberOfListeners": 1032815
+      },
+      {
+        "country": "BR",
+        "city": "São Paulo",
+        "numberOfListeners": 1006870
+      },
+      {
+        "country": "AU",
+        "city": "Sydney",
+        "numberOfListeners": 941318
+      },
+      {
+        "country": "FR",
+        "city": "Paris",
+        "numberOfListeners": 801548
+      }
+    ],
+    "topTracks": [
+      {
+        "id": "7lQ8MOhq6IN2w8EYcFNSUk",
+        "name": "Without Me",
+        "streamCount": 2364146822,
+        "duration": 290320,
+        "contentRating": "explicit"
+      },
+      {
+        "id": "1CDQzbCz4KSQxHe7LMEgRM",
+        "name": "Houdini",
+        "streamCount": 464385131,
+        "duration": 227032,
+        "contentRating": "explicit"
+      },
+      {
+        "id": "561jH07mF1jHuk7KlaeF0s",
+        "name": "Mockingbird",
+        "streamCount": 1870971906,
+        "duration": 250760,
+        "contentRating": "explicit"
+      },
+      {
+        "id": "3yfqSUWxFvZELEM4PmlwIR",
+        "name": "The Real Slim Shady",
+        "streamCount": 1961362039,
+        "duration": 284200,
+        "contentRating": "explicit"
+      },
+      {
+        "id": "1v7L65Lzy0j0vdpRjJewt1",
+        "name": "Lose Yourself",
+        "streamCount": 2351270402,
+        "duration": 322226,
+        "contentRating": "explicit"
+      },
+      {
+        "id": "15JINEqzVMv3SvJTAXAKED",
+        "name": "Love The Way You Lie",
+        "streamCount": 1672644169,
+        "duration": 263373,
+        "contentRating": "explicit"
+      },
+      {
+        "id": "4xkOaSrkexMciUUogZKVTS",
+        "name": "Till I Collapse",
+        "streamCount": 2079225730,
+        "duration": 297786,
+        "contentRating": "explicit"
+      },
+      {
+        "id": "4woTEX1wYOTGDqNXuavlRC",
+        "name": "Superman",
+        "streamCount": 1016023715,
+        "duration": 350320,
+        "contentRating": "explicit"
+      },
+      {
+        "id": "7FIWs0pqAYbP91WWM0vlTQ",
+        "name": "Godzilla (feat. Juice WRLD)",
+        "streamCount": 1559687350,
+        "duration": 210800,
+        "contentRating": "explicit"
+      },
+      {
+        "id": "3UmaczJpikHgJFyBTAJVoz",
+        "name": "Stan",
+        "streamCount": 1200508135,
+        "duration": 404106,
+        "contentRating": "explicit"
+      }
+    ],
+    "albums": [
+      {
+        "id": "31hcgCSu4mlA82syOFItur",
+        "name": "The Death of Slim Shady (Coup De Grâce): Expanded Mourner’s Edition",
+        "type": "album",
+        "releaseDate": "2024-09-13"
+      },
+      {
+        "id": "3kjHLu1pL7tdY88GFwEkl6",
+        "name": "The Death of Slim Shady (Coup De Grâce)",
+        "type": "album",
+        "releaseDate": "2024-07-12"
+      },
+      {
+        "id": "5EUgcfO5OWxnniHR3QYFcK",
+        "name": "The Marshall Mathers LP2 (Expanded Edition)",
+        "type": "album",
+        "releaseDate": "2023-11-03"
+      },
+      {
+        "id": "3aTuW4BtsyyyyQa9LKqj8n",
+        "name": "Curtain Call 2",
+        "type": "album",
+        "releaseDate": "2022-08-05"
+      },
+      {
+        "id": "6EzbFdrwvWpnpUjzrR57aU",
+        "name": "The Eminem Show (Expanded Edition)",
+        "type": "album",
+        "releaseDate": "2022-05-26"
+      },
+      {
+        "id": "3MKvhQoFSrR2PrxXXBHe9B",
+        "name": "Music To Be Murdered By - Side B (Deluxe Edition)",
+        "type": "album",
+        "releaseDate": "2020-12-18"
+      },
+      {
+        "id": "4otkd9As6YaxxEkIjXPiZ6",
+        "name": "Music To Be Murdered By",
+        "type": "album",
+        "releaseDate": "2020-01-17"
+      },
+      {
+        "id": "3HNnxK7NgLXbDoxRZxNWiR",
+        "name": "Kamikaze",
+        "type": "album",
+        "releaseDate": "2018-08-31"
+      },
+      {
+        "id": "0U6ldwLBEMkwgfQRY4V6D2",
+        "name": "Revival",
+        "type": "album",
+        "releaseDate": "2017-12-15"
+      },
+      {
+        "id": "6DN7GcZF1HywzrkGN6Eeqk",
+        "name": "The Marshall Mathers LP2 (Deluxe)",
+        "type": "album",
+        "releaseDate": "2013-11-05"
+      }
+    ],
+    "singles": [
+      {
+        "id": "5mjH6kL3zysY2X8VZVb9BU",
+        "name": "Fuel (feat. WESTSIDE BOOGIE & GRIP) [Shady Edition]",
+        "type": "single",
+        "releaseDate": "2024-09-11"
+      },
+      {
+        "id": "0B2lD0gY47LYXSxPOzxrXh",
+        "name": "Somebody Save Me (feat. Jelly Roll)",
+        "type": "single",
+        "releaseDate": "2024-07-10"
+      },
+      {
+        "id": "65iXBHLsOnNVC5C6nVbLYf",
+        "name": "Tobey (feat. Big Sean and BabyTron)",
+        "type": "single",
+        "releaseDate": "2024-07-02"
+      },
+      {
+        "id": "6Xuu2z00jxRPZei4IJ9neK",
+        "name": "Houdini",
+        "type": "single",
+        "releaseDate": "2024-05-31"
+      },
+      {
+        "id": "5nOfPCLpHGpayGrUNHAPLt",
+        "name": "Lace It (with Eminem & benny blanco)",
+        "type": "single",
+        "releaseDate": "2023-12-16"
+      },
+      {
+        "id": "2qJd6dBsXw6hZrZp8L8n2P",
+        "name": "Realest (with Eminem)",
+        "type": "single",
+        "releaseDate": "2023-08-04"
+      },
+      {
+        "id": "6F4ObGnJwwV5W4uLFHnNoT",
+        "name": "From The D 2 The LBC (with Snoop Dogg)",
+        "type": "single",
+        "releaseDate": "2022-06-24"
+      },
+      {
+        "id": "24lMM7McdJmSBgbFhKGugA",
+        "name": "The King and I (feat. CeeLo Green) [From the Original Motion Picture Soundtrack ELVIS]",
+        "type": "single",
+        "releaseDate": "2022-06-16"
+      },
+      {
+        "id": "5ulYXl8kDywda5dOOFkZpX",
+        "name": "Gospel (with Eminem)",
+        "type": "single",
+        "releaseDate": "2022-02-04"
+      },
+      {
+        "id": "2aYIs6VLwMLzONDdVtNOe6",
+        "name": "Last One Standing (feat. Polo G, Mozzy & Eminem) [From Venom: Let There Be Carnage]",
+        "type": "single",
+        "releaseDate": "2021-10-05"
+      }
+    ],
+    "popularReleases": [
+      {
+        "id": "2cWBwpqMsDJC1ZUwz813lo",
+        "name": "The Eminem Show",
+        "type": "album",
+        "releaseDate": "2002-05-26"
+      },
+      {
+        "id": "3kjHLu1pL7tdY88GFwEkl6",
+        "name": "The Death of Slim Shady (Coup De Grâce)",
+        "type": "album",
+        "releaseDate": "2024-07-12"
+      },
+      {
+        "id": "47BiFcV59TQi2s9SkBo2pb",
+        "name": "Recovery",
+        "type": "album",
+        "releaseDate": "2010-06-18"
+      },
+      {
+        "id": "1kTlYbs28MXw7hwO0NLYif",
+        "name": "Encore (Deluxe Version)",
+        "type": "album",
+        "releaseDate": "2004-11-12"
+      },
+      {
+        "id": "4otkd9As6YaxxEkIjXPiZ6",
+        "name": "Music To Be Murdered By",
+        "type": "album",
+        "releaseDate": "2020-01-17"
+      },
+      {
+        "id": "6Xuu2z00jxRPZei4IJ9neK",
+        "name": "Houdini",
+        "type": "single",
+        "releaseDate": "2024-05-31"
+      },
+      {
+        "id": "31hcgCSu4mlA82syOFItur",
+        "name": "The Death of Slim Shady (Coup De Grâce): Expanded Mourner’s Edition",
+        "type": "album",
+        "releaseDate": "2024-09-13"
+      },
+      {
+        "id": "7MZzYkbHL9Tk3O6WeD4Z0Z",
+        "name": "Relapse: Refill",
+        "type": "album",
+        "releaseDate": "2009-05-15"
+      },
+      {
+        "id": "3HNnxK7NgLXbDoxRZxNWiR",
+        "name": "Kamikaze",
+        "type": "album",
+        "releaseDate": "2018-08-31"
+      },
+      {
+        "id": "6DN7GcZF1HywzrkGN6Eeqk",
+        "name": "The Marshall Mathers LP2 (Deluxe)",
+        "type": "album",
+        "releaseDate": "2013-11-05"
+      }
+    ],
+    "latest": {
+      "id": "31hcgCSu4mlA82syOFItur",
+      "name": "The Death of Slim Shady (Coup De Grâce): Expanded Mourner’s Edition",
+      "type": "album",
+      "releaseDate": "2024-09-13"
+    },
+    "biography": "Apart from being one of the best-selling artists in music history, Eminem is one of the greatest rappers of his generation. He's effortlessly fast, fluid, dexterous, and unpredictable, capable of pulling off long-form narratives or withering asides. And thanks to his mentor <a href=\"spotify:artist:6DPYiyq5kWVQS4RGwxzPC7\">Dr. Dre</a>, he's had music to match with thick, muscular loops evoking the terror and paranoia conjured by his lyrics. To be certain, a great deal of the controversy Eminem courted came through in how his violent fantasias, often directed at his mother or his wife, intertwined with flights of absurdity that appealed to listeners too young to absorb the psychodramas explored on his breakthrough albums The Slim Shady LP and The Marshall Mathers LP. Eminem's commercial peak came around the time of his 2002 album The Eminem Show (which went platinum 27 times over) and with his crossover onto the big screen that same year with 8 Mile, a film that earned him acclaim for his performance and an Oscar for the film's anthem, \"Lose Yourself.\" Eminem's journey as a living rap legend included struggles with addiction, near-constant feuding with other artists, and a celebrity status that shifted as the years went on. Through all his various changes, however, he continued growing as an artist as well as consistently hitting high commercial marks. Though critics could be unkind to efforts like 2009's Relapse or 2017's Revival, fans made sure that each new album sold at least platinum numbers and topped the charts. Instead of recycling old ideas, the rapper experimented with new production approaches, faster flows, and increasingly complex multisyllabic wordplay on projects like 2020's Music to Be Murdered By and the 2024 concept album The Death of Slim Shady (Coup de Grâce), in which he confronted and killed his alter ego.\r\n\nBorn Marshall Mathers in the Kansas City, Missouri suburb of St. Joseph, Eminem spent his childhood between Missouri and Michigan, settling in Detroit in his teens. At the age of 14, he began rapping with a high school friend, the two adopting the names \"Manix\" and \"M&M,\" which soon morphed into Eminem. Under this name, Mathers entered battle rapping, a struggle dramatized in the fictionalized 8 Mile. Initially, the predominantly Black audience didn't embrace him, but soon his skills earned him a reputation, and he was recruited to join several rap groups. The first of these was the New Jacks, and after they disbanded, he joined Soul Intent, who released a single in 1995. This track also featured <a href=\"spotify:artist:1W7G3vXPeISR3Oi9ggVfyE\">Proof</a>, and the two rappers broke off on their own to form <a href=\"spotify:artist:5Qi4Bb7a8C0a00NZcA77L0\">D-12</a>, a six-member crew that functioned more as a <a href=\"spotify:artist:34EP7KEpOjXcM2TCat1ISk\">Wu-Tang</a>-styled collective than a regularly performing group. \r\n\nAs he was struggling to establish his career, Eminem and his girlfriend Kim had a daughter, Hailey, forcing him to spend less time rapping and more time providing for his family. He assembled his first album, Infinite, which received some underground attention in 1996, not all of it positive. After its release, Eminem developed his Slim Shady alter ego, a persona that freed him to dig deep into his dark id, something he needed as he faced a number of personal upheavals, beginning with a bad split with Kim, which led him to move in with his mother and increase his use of drugs and alcohol, capped off by an unsuccessful suicide attempt. All this sturm und drang was channeled into The Slim Shady EP, which is where he first demonstrated many of the quirks that became his trademark, including his twitchy, nasal rhyming and disturbingly violent imagery. \r\n\nThe Slim Shady EP opened many doors, the most notable being a contract with <a href=\"spotify:search:label%3A%22Interscope+Records%22\">Interscope Records</a>. After Eminem came in second at the 1997 Rap Olympics MC Battle in Los Angeles, <a href=\"spotify:search:label%3A%22Interscope%22\">Interscope</a> head Jimmy Iovine sought him out, giving the EP to <a href=\"spotify:artist:6DPYiyq5kWVQS4RGwxzPC7\">Dr. Dre</a>, who proved eager to work with Eminem. They quickly cut Em's <a href=\"spotify:search:label%3A%22Interscope%22\">Interscope</a> debut in the fall of 1998 -- during which time Marshall reconciled with Kim and married her -- and The Slim Shady LP appeared early in 1999, preceded by the single \"My Name Is.\" Both were instant blockbusters and Eminem became a lightning rod for attention, earning praise and disdain for his violent, satirical fantasias. \r\n\nHe quickly followed The Slim Shady LP with The Marshall Mathers LP in the summer of 2000. By this point, there was little doubt that Eminem was one of the biggest stars in pop music: the album sold almost two million copies within the first two weeks of release, but Mathers felt compelled to tweak other celebrities, provoking pop stars in his lyrics, and <a href=\"spotify:artist:4xtWjIlVuZwTCeqVAsgEXy\">Insane Clown Posse</a>'s entourage in person, providing endless fodder for the tabloids. This gossip blended with growing criticism about his violent and homophobic lyrics, and under this fire, he reunited his old crew, <a href=\"spotify:artist:5Qi4Bb7a8C0a00NZcA77L0\">D-12</a>, releasing an album in 2001, then touring with the group.\r\n\nDuring this furor, he had his biggest hit in the form of the moody ballad \"Stan.\" Performed at the Grammys as a duet with <a href=\"spotify:artist:3PhoLpVuITZKcymswpck5b\">Elton John</a>, thereby undercutting some accusations of homophobia, the song helped Eminem cross over to a middlebrow audience, setting the stage for the ultimate crossover of 2001's 8 Mile. Directed by Curtis Hanson, best known as the Oscar-nominated director of L.A. Confidential, the gritty drama fictionalized Eminem's pre-fame Detroit days and earned considerable praise, culminating in one of his biggest hits with the theme \"Lose Yourself,\" which won Mathers an Oscar. \r\n\nAfter all this, he retreated from the spotlight to record his third album, The Eminem Show. Preceded by the single \"Without Me,\" it turned into another huge hit, albeit not quite as strong as its predecessor, and there were some criticisms suggesting that Eminem wasn't expanding his horizons much. Encore, released late in 2004, did reach into more mature territory, notably on the anti-<a href=\"spotify:artist:2JZbcOAw67koOHlFTjMeGX\">George W. Bush</a> \"Mosh,\" but most of the controversy generated by the album was for behind-the-scenes events: a bus crash followed by canceled dates and a stint in rehab. Rumors of retirement flew, and the 2005 appearance of Curtain Call: The Hits did nothing to dampen them, nor did the turmoil of 2006, a year that saw Mathers remarrying and divorcing Kim within a matter of four months, as well as the shooting death of <a href=\"spotify:artist:1W7G3vXPeISR3Oi9ggVfyE\">Proof</a> at a Detroit club.\r\n\nDuring all this, Em did some minor studio work, but he soon dropped off the radar completely, retreating to his Detroit home. He popped up here and there, most notably debuting the hip-hop channel Shade 45 for Sirius Satellite Radio in September 2008, but it wasn't until early 2009 that he mounted a comeback with Relapse, an album whose very title alluded to some of Mathers' struggles with prescription drugs, but it also announced that after an extended absence, Slim Shady was back. While not quite a blockbuster, the album went platinum, and Eminem followed it at the end of the year with an expanded version of Relapse (dubbed Relapse: Refill) that added outtakes and new recordings. Recovery, initially titled Relapse 2, was issued in June 2010. The album debuted on top of the Billboard 200 chart, where it remained for five consecutive weeks, while its leadoff single, \"Not Afraid,\" debuted on top of the magazine's Hot 100 singles chart.\r\n\nThe year 2010 also brought Eminem back together with <a href=\"spotify:artist:6DVipHzYsPlIoA0DW8Gmns\">Royce da 5'9\"</a> under the <a href=\"spotify:artist:77IURH5NC56Jn09QHi76is\">Bad Meets Evil</a> moniker. In turn, June 2011's Hell: The Sequel marked the release of their first EP as a duo (barring the previous month's release of key EP track \"Fastlane\" as a single) and was their first batch of new material since a 1999 double A-side. After an intense period of recording, Eminem announced in August 2013 that his next solo album would be a nostalgically themed set of new material entitled The Marshall Mathers LP 2, which landed in early November. The album featured the singles \"Berzerk,\" \"Rap God,\" and \"Survival,\" plus the chart-topping hit \"The Monster\" with <a href=\"spotify:artist:5pKCCKE2ajJHZ9KAiaK11H\">Rihanna</a>. In 2014, new tracks landed on the double-disc set Shady XV, which celebrated the <a href=\"spotify:search:label%3A%22Shady%22\">Shady</a> label's 15th birthday. The singles \"Phenomenal\" and \"Kings Never Die\" featuring <a href=\"spotify:artist:4yiQZ8tQPux8cPriYMWUFP\">Gwen Stefani</a> arrived a year later, both taken from the Southpaw soundtrack. \r\n\nEminem resurfaced in October 2017 with a freestyle anti-Trump rap, which didn't appear on Revival, the December 2017 album that was filled with cameos, including appearances by <a href=\"spotify:artist:6vWDO969PvNqNYHIOW5v0m\">Beyoncé</a> (\"Walk on Water\"), <a href=\"spotify:artist:6eUKZXaKkcviH0Ku9w2n3V\">Ed Sheeran</a> (\"River\"), and <a href=\"spotify:artist:1KCSPY1glIKqW2TotWuXOR\">P!nk</a> (\"Need Me\"). His seventh straight chart-topper, it ultimately failed to match the sales heights of past efforts, despite the international success of the \"River\" single. The next year, without warning, Eminem issued his surprise tenth album, Kamikaze. The set featured appearances by <a href=\"spotify:artist:6C1ohJrd5VydigQtaGy5Wa\">Joyner Lucas</a>, <a href=\"spotify:artist:6DVipHzYsPlIoA0DW8Gmns\">Royce da 5'9\"</a>, and <a href=\"spotify:artist:3KedxarmBCyFBevnqQHy3P\">Jessie Reyez</a>, as well as \"Venom,\" from the film of the same name. In January 2020, he repeated this surprise-release approach with 11th studio album Music to Be Murdered By. The album featured production from <a href=\"spotify:artist:6DPYiyq5kWVQS4RGwxzPC7\">Dr. Dre</a> and cameos from the now-usual host of special guests, this time featuring <a href=\"spotify:artist:3ZotbHeyVQKxQCPDJuQ4SU\">Q-Tip</a>, <a href=\"spotify:artist:6eUKZXaKkcviH0Ku9w2n3V\">Ed Sheeran</a>, <a href=\"spotify:artist:3jK9MiCrA42lLAdMGUZpwa\">Anderson .Paak</a>, and the late <a href=\"spotify:artist:4MCBfE4596Uoi2O4DtmEMz\">Juice Wrld</a>, among many others. The set debuted at number one on the Billboard charts and was re-released in expanded form in December under the title Music to Be Murdered By: Side B. In 2021, Eminem appeared on the <a href=\"spotify:artist:4utLUGcTvOJFr6aqIJtYWV\">Skylar Grey</a> song \"Last One Standing\" along with <a href=\"spotify:artist:6AgTAQt8XS6jRWi4sX7w49\">Polo G</a> and <a href=\"spotify:artist:4AA474G2hRfrHyGrfyDseO\">Mozzy</a>. The track was featured on the soundtrack for the film Venom: Let There Be Carnage and cracked the Top 100 of the Billboard charts. 2021 also saw Eminem opening a spaghetti restaurant in Detroit, named Mom's Spaghetti after a line from \"Lose Yourself.\" \r\n\nIn February 2022, he performed alongside <a href=\"spotify:artist:6DPYiyq5kWVQS4RGwxzPC7\">Dr. Dre</a>, <a href=\"spotify:artist:1XkoF8ryArs86LZvFOkbyr\">Mary J. Blige</a>, <a href=\"spotify:artist:2YZyLoL8N0Wb9xBt1NhZWg\">Kendrick Lamar</a>, and others at the half-time show of Super Bowl LVI. That June, Eminem released \"The King and I,\" a track he recorded with <a href=\"spotify:artist:5nLYd9ST4Cnwy6NHaCxbj8\">CeeLo Green</a> for the soundtrack of <a href=\"spotify:artist:7HhTERkBV4Ot14KphgBfSh\">Baz Luhrmann</a>'s <a href=\"spotify:artist:43ZHCT0cAZBISjO8DG9PnE\">Elvis Presley</a> biopic, Elvis. \"The King and I\" was one of three new songs on Curtain Call 2, a 2022 compilation covering the singles Eminem had released since Curtain Call: The Hits. \"From the D to the LBC,\" a collaboration with <a href=\"spotify:artist:7hJcb9fa4alzcOq3EaNPoG\">Snoop Dogg</a>, was also featured on Curtain Call 2. \r\n\nIn June of 2024, Eminem released his 12th studio LP The Death of Slim Shady (Coup de Grâce). The album largely centered around the concept of Marshall Mathers being kidnapped by his alter ego Slim Shady and fighting internally between these two sides of his personality. The album included production work from <a href=\"spotify:artist:6DPYiyq5kWVQS4RGwxzPC7\">Dr. Dre</a>, <a href=\"spotify:artist:6GEykX11lQqp92UVOQQCC7\">DJ Premier</a>, and <a href=\"spotify:artist:5CiGnKThu5ctn9pBxv7DGa\">Benny Blanco</a>, as well as rap cameos from <a href=\"spotify:artist:0c173mlxpT3dSFRgMO8XPh\">Big Sean</a>, <a href=\"spotify:artist:0sKsReKseslDlhxmbN6wLk\">BabyTron</a>, <a href=\"spotify:artist:6U3ybJ9UHNKEdsH7ktGBZ7\">JID</a>, and others. ~ Stephen Thomas Erlewine, Rovi",
+    "externalLinks": [
+      {
+        "label": "facebook",
+        "url": "https://facebook.com/Eminem"
+      },
+      {
+        "label": "instagram",
+        "url": "https://instagram.com/Eminem"
+      },
+      {
+        "label": "twitter",
+        "url": "https://twitter.com/Eminem"
+      },
+      {
+        "label": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Eminem"
+      }
+    ],
+    "coverArt": [
+      {
+        "url": "https://i.scdn.co/image/ab6761610000e5eba00b11c129b27a88fc72f36b",
+        "height": 640,
+        "width": 640
+      },
+      {
+        "url": "https://i.scdn.co/image/ab6761610000f178a00b11c129b27a88fc72f36b",
+        "height": 160,
+        "width": 160
+      },
+      {
+        "url": "https://i.scdn.co/image/ab67616100005174a00b11c129b27a88fc72f36b",
+        "height": 320,
+        "width": 320
+      }
+    ]
+  }

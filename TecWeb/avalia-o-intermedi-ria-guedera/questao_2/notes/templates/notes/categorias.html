@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro de Categorias</title>
+</head>
+<body>
+    <h1>Cadastro de Categorias</h1>
+    
+    <form method="post">
+        {% csrf_token %}
+        <div>
+            <label for="nome">Nome da categoria:</label><br>
+            <input type="text" name="nome" id="nome" required>
+        </div>
+        <br>
+        <button type="submit">Criar</button>
+    </form>
+    
+    <div>
+        {% if categorias %}
+            <ul>
+                {% for categoria in categorias %}
+                    <li>{{ categoria.nome }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </div>
+</body>
+</html>

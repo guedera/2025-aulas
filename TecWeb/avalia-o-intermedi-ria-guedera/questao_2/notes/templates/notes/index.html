@@ -1,0 +1,48 @@
+{% extends "notes/base.html" %}
+{% load static %}
+
+{% block content %}
+  <form class="form-card" method="post">
+    {% csrf_token %}
+    <label for="titulo"></label>
+    <input class="form-card-title" id="titulo" type="text" name="titulo" placeholder="Título" />
+    
+    <label for="detalhes"></label>
+    <textarea class="autoresize" id="detalhes" name="detalhes" placeholder="Digite o conteúdo..."></textarea>
+    
+    <label for="tags"></label>
+    <input class="form-card-tag-input" id="tags" type="text" name="tags" placeholder="Adicione uma tag" />
+    
+    <button class="btn" type="submit">Criar</button>
+  </form>
+
+  <div class="tags-button-container">
+    <a href="{% url 'tags' %}" class="tags-button">Ver todas as tags</a>
+  </div>
+
+  <div class="card-container">
+    {% for note in notes %}
+      <div class="card {% if forloop.counter|divisibleby:5 %}card-color-5{% elif forloop.counter|divisibleby:4 %}card-color-4{% elif forloop.counter|divisibleby:3 %}card-color-3{% elif forloop.counter|divisibleby:2 %}card-color-2{% else %}card-color-1{% endif %}">
+        <div class="card-header">
+          <h5 class="card-title">{{ note.title }}</h5>
+          <div class="card-buttons">
+            <a href="{% url 'update' note.id %}" class="btn-edit">
+              <img src="{% static 'notes/img/img-edit.png' %}" alt="Edit" class="img-edit">
+            </a>
+            <a href="{% url 'delete' note.id %}" class="btn-delete">
+              <img src="{% static 'notes/img/img-delete.png' %}" alt="Delete" class="img-delete">
+            </a>
+          </div>
+        </div>
+        <div class="card-content">
+          <p>{{ note.content }}</p>
+        </div>
+        {% if note.tag %}
+          <a href="{% url 'tag_details' note.tag.id %}">
+            <div class="card-tag">#{{ note.tag.title }}</div>
+          </a>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+{% endblock %}

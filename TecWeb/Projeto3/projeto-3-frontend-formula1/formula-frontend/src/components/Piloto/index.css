@@ -1,0 +1,97 @@
+.piloto-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  max-width: 800px;
+  margin: 80px auto 0;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  box-shadow: 0 0 25px var(--team-color, rgba(255, 0, 0, 0.6)), 0 0 40px var(--team-color, rgba(255, 0, 0, 0.3));
+  border: 1px solid var(--team-color, rgba(255, 0, 0, 0.3));
+  position: relative;
+  transition: box-shadow 0.3s ease;
+}
+
+.piloto-content:hover {
+  box-shadow: 0 0 35px var(--team-color, rgba(255, 0, 0, 0.7)), 0 0 60px var(--team-color, rgba(255, 0, 0, 0.4));
+}
+
+.piloto-content h1 {
+  color: #fff;
+  font-family: 'Russo One', sans-serif;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 0 0 10px var(--team-color, rgba(255, 0, 0, 0.5));
+  border-bottom: 2px solid var(--team-color, #ff0000);
+  padding-bottom: 10px;
+  width: 80%;
+  text-align: center;
+}
+
+.piloto-content p {
+  color: #fff;
+  font-size: 18px;
+  margin: 12px 0;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(40, 40, 40, 0.6);
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.piloto-content p:hover {
+  background-color: rgba(60, 60, 60, 0.8);
+  transform: translateY(-2px);
+}
+
+.piloto-content strong {
+  color: #ff0000;
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.team-color {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-left: 10px;
+  border: 2px solid white;
+}
+
+.favoritar-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.favoritar-icon {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.favoritar-icon:hover {
+  transform: scale(1.2);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .piloto-content {
+    padding: 20px;
+    width: 90%;
+  }
+  
+  .piloto-content h1 {
+    font-size: 24px;
+  }
+  
+  .piloto-content p {
+    font-size: 16px;
+  }
+}

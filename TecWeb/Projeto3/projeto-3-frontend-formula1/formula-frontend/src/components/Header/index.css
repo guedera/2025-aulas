@@ -1,0 +1,62 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem 2rem;
+  background-color: #242424;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  width: 100%;
+  box-sizing: border-box;
+  height: 80px;
+}
+
+.title-logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.title-logo h1 {
+  margin: 0;
+  font-size: 3rem;
+  color: white;
+}
+
+.title-logo .logo {
+  height: 5rem;
+  margin-left: 0.5rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.buttons button {
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit; /* Use the same font as defined in :root */
+  font-synthesis: inherit;
+  text-rendering: inherit;
+}
+
+.buttons button:hover {
+  background-color: #333;
+  color: #ffffff;
+  border-color: #FF1801;
+  box-shadow: 0 0 10px #FF1801;
+}
+
+.clickable {
+  cursor: pointer;
+}

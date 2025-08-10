@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+.artistas-container {
+    background-color: #191414;
+    color: #FFFFFF;
+    min-height: 100vh;
+    padding: 20px;
+    font-family: 'SF Pro', -apple-system, BlinkMacSystemFont, 'JetBrains Mono', monospace;
+}
+
+.title-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.page-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.artistas-titulo {
+    color: #1DB954;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.artista-nome {
+    color: #FFFFFF;
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.artista-item {
+    justify-content: center;
+    margin-top: 30px; 
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.home {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.home img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.selecionar-btn {
+  padding: 8px 15px;
+  background-color: #FFFFFF;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.selecionar-btn:hover {
+  background-color: #1ed760;
+}

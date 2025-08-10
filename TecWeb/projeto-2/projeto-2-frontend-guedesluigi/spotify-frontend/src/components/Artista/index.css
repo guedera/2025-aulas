@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+.artist-container {
+  background-color: #191414;
+  color: #FFFFFF;
+  min-height: 100vh;
+  font-family: 'SF Pro', -apple-system, BlinkMacSystemFont, 'JetBrains Mono', monospace;
+  padding: 20px;
+}
+
+.title-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.artist-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.artist-info h2 {
+  font-size: 2em;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.content-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  margin: 20px 0;
+  width: 100%;
+  justify-content: center;
+}
+
+.image-container {
+  flex: 0 0 auto;
+}
+
+.stats-container {
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.favoritar-container {
+  margin-top: 20px;
+}
+
+.stats-item {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.verified-icon {
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+}
+
+.top-track {
+  margin-top: 10px;
+}
+
+.artist-container .home {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.artist-container .home img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.spotify-link-container {
+  margin-top: 15px;
+}
+
+.spotify-link-container img {
+  width: 100px;  
+  height: 100px; 
+  cursor: pointer;
+}
+
+.spotify-icon {
+  transition: transform 0.2s;
+}
+
+.spotify-icon:hover {
+  transform: scale(1.1);
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+}
+
+.loading-text {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+}

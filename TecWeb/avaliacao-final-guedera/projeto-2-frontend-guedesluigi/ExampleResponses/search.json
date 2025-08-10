@@ -1,0 +1,258 @@
+{
+    "query": "Arctic Monkeys",
+    "topResults": [
+      {
+        "type": "track",
+        "id": "5XeFesFbtLpXzIVDNQP22n",
+        "name": "I Wanna Be Yours"
+      },
+      {
+        "type": "track",
+        "id": "0BxE4FqsDD1Ot4YuBXwAPp",
+        "name": "505"
+      },
+      {
+        "type": "track",
+        "id": "5FVd6KXrgO9B3JPmC8OPst",
+        "name": "Do I Wanna Know?"
+      },
+      {
+        "type": "artist",
+        "id": "7Ln80lUS6He07XvHI8qqHH",
+        "name": "Arctic Monkeys"
+      },
+      {
+        "type": "playlist",
+        "id": "37i9dQZF1E4vIIV392R6kP",
+        "name": "Arctic Monkeys Radio"
+      }
+    ],
+    "artists": [
+      {
+        "id": "7Ln80lUS6He07XvHI8qqHH",
+        "name": "Arctic Monkeys"
+      },
+      {
+        "id": "3utZ2yeQk0Z3BCOBWP7Vlu",
+        "name": "CRO"
+      },
+      {
+        "id": "2hv9oBOxgWSFnZJPW6UL58",
+        "name": "Arctic Monkeys Tribute Band"
+      },
+      {
+        "id": "34LetYSjEuG2fBb4Z8PwPg",
+        "name": "Pashanim"
+      },
+      {
+        "id": "58weT4m0eMXcHFTJlSAgsz",
+        "name": "Anthem Arctic Monkeys"
+      },
+      {
+        "id": "13bDjug9N0pyv3ZUINjkDV",
+        "name": "Bausa"
+      },
+      {
+        "id": "3Z3aTg9PwJ37e8xeO0aUC9",
+        "name": "01099"
+      },
+      {
+        "id": "0bMt8SJlp0gFRUufzifS05",
+        "name": "K.I.Z"
+      },
+      {
+        "id": "1ZyqnbV7Brg5LgyS4EZCUD",
+        "name": "FiNCH"
+      },
+      {
+        "id": "0cbL6CYnRqpAxf1evwUVQD",
+        "name": "Die Ärzte"
+      }
+    ],
+    "albums": [
+      {
+        "id": "50Zz8CkIhATKUlQMbHO3k1",
+        "name": "Whatever People Say I Am, That's What I'm Not",
+        "type": "album",
+        "releaseDate": "2006"
+      },
+      {
+        "id": "78bpIziExqiI9qztvNFlQu",
+        "name": "AM",
+        "type": "album",
+        "releaseDate": "2013"
+      },
+      {
+        "id": "1XkGORuUX2QGOEIL4EbJKm",
+        "name": "Favourite Worst Nightmare",
+        "type": "album",
+        "releaseDate": "2007"
+      },
+      {
+        "id": "5IEoiwkThhRmSMBANhpxl2",
+        "name": "Humbug",
+        "type": "album",
+        "releaseDate": "2009"
+      },
+      {
+        "id": "1C7cbYCvAR2A3e7zOQriFg",
+        "name": "Triebwerke",
+        "type": "album",
+        "releaseDate": "2013"
+      },
+      {
+        "id": "2ym2jcqckXqWeTDoxz3Kst",
+        "name": "Suck It and See",
+        "type": "album",
+        "releaseDate": "2011"
+      },
+      {
+        "id": "2GROf0WKoP5Er2M9RXVNNs",
+        "name": "The Car",
+        "type": "album",
+        "releaseDate": "2022"
+      },
+      {
+        "id": "5seerIZ96Tknor62ygW3on",
+        "name": "Zorn & Liebe",
+        "type": "album",
+        "releaseDate": "2022"
+      },
+      {
+        "id": "7v6FNgLDS8KmaWA1amUtqe",
+        "name": "Tranquility Base Hotel & Casino",
+        "type": "album",
+        "releaseDate": "2018"
+      },
+      {
+        "id": "0SlR6pLgIqWFUkuUfbNbm0",
+        "name": "Why'd You Only Call Me When You're High?",
+        "type": "single",
+        "releaseDate": "2013"
+      }
+    ],
+    "tracks": [
+      {
+        "id": "5XeFesFbtLpXzIVDNQP22n",
+        "name": "I Wanna Be Yours",
+        "streamCount": 0,
+        "duration": 183956,
+        "contentRating": "none"
+      },
+      {
+        "id": "0BxE4FqsDD1Ot4YuBXwAPp",
+        "name": "505",
+        "streamCount": 0,
+        "duration": 253586,
+        "contentRating": "none"
+      },
+      {
+        "id": "5FVd6KXrgO9B3JPmC8OPst",
+        "name": "Do I Wanna Know?",
+        "streamCount": 0,
+        "duration": 272394,
+        "contentRating": "none"
+      },
+      {
+        "id": "086myS9r57YsLbJpU0TgK9",
+        "name": "Why'd You Only Call Me When You're High?",
+        "streamCount": 0,
+        "duration": 161123,
+        "contentRating": "none"
+      },
+      {
+        "id": "2AT8iROs4FQueDv2c8q2KE",
+        "name": "R U Mine?",
+        "streamCount": 0,
+        "duration": 201726,
+        "contentRating": "none"
+      },
+      {
+        "id": "2x8evxqUlF0eRabbW2JBJd",
+        "name": "Fluorescent Adolescent",
+        "streamCount": 0,
+        "duration": 183893,
+        "contentRating": "none"
+      },
+      {
+        "id": "5TTGoX70AFrTvuEtqHK37S",
+        "name": "No. 1 Party Anthem",
+        "streamCount": 0,
+        "duration": 243131,
+        "contentRating": "none"
+      },
+      {
+        "id": "2xql0pid3EUwW38AsywxhV",
+        "name": "Reflections",
+        "streamCount": 0,
+        "duration": 244013,
+        "contentRating": "none"
+      },
+      {
+        "id": "0NdTUS4UiNYCNn5FgVqKQY",
+        "name": "Snap Out Of It",
+        "streamCount": 0,
+        "duration": 193030,
+        "contentRating": "none"
+      },
+      {
+        "id": "7nzsY8vlnKdvGOEE0rjAXZ",
+        "name": "Arabella",
+        "streamCount": 0,
+        "duration": 207356,
+        "contentRating": "none"
+      }
+    ],
+    "playlists": [
+      {
+        "id": "37i9dQZF1E4vIIV392R6kP",
+        "name": "Arctic Monkeys Radio",
+        "description": "With Cigarettes After Sex, Chase Atlantic, Lana Del Rey and more"
+      },
+      {
+        "id": "37i9dQZF1DXdpy4ZQQMZKm",
+        "name": "Top Throwbacks 2023",
+        "description": "The songs with the biggest throwback moments. Cover: Arctic Monkeys"
+      },
+      {
+        "id": "2OFbElSZOE3YdEaRqyxXOp",
+        "name": "!!",
+        "description": ""
+      },
+      {
+        "id": "37i9dQZF1DZ06evO4BaAkp",
+        "name": "This Is Arctic Monkeys",
+        "description": "This is Arctic Monkeys. The essential tracks, all in one playlist."
+      },
+      {
+        "id": "43w26mZ5ZszlXQJD1W8KSn",
+        "name": "!!",
+        "description": ""
+      },
+      {
+        "id": "37i9dQZF1EIZFSv8zffo2I",
+        "name": "Arctic Monkeys Mix",
+        "description": "<a href=spotify:playlist:37i9dQZF1EIXDaYK299f9T>Cigarettes After Sex</a>, <a href=spotify:playlist:37i9dQZF1EIVOnEE4oH22H>Beach Weather</a> and <a href=spotify:playlist:37i9dQZF1EIWebDwhi0Xn3>Steve Lacy</a>"
+      },
+      {
+        "id": "17mDZ2bZBozJWkL3qLXT5R",
+        "name": "???",
+        "description": ""
+      },
+      {
+        "id": "1gWg7yppO1Mqq2d823A0cI",
+        "name": "?????",
+        "description": ""
+      },
+      {
+        "id": "37i9dQZF1DX35DWKgAk2B5",
+        "name": "Indie Rock Club",
+        "description": "Welcome to Indie Rock Club. Cover: Arctic Monkeys"
+      },
+      {
+        "id": "5Lwl0uIohQRPOicBbk0ikQ",
+        "name": "???????",
+        "description": ""
+      }
+    ]
+  }

@@ -1,0 +1,38 @@
+{% extends "notes/base.html" %}
+{% load static %}
+
+{% block content %}
+  <div class="tags-container">
+    <div class="tags-header">
+    </div>
+    
+    <table class="tags-table">
+      <thead>
+        <tr>
+          <th>TAG</th>
+          <th>ANOTAÇÕES</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for tag in tags %}
+          <tr class="tag-row">
+            <td class="tag-name-cell">
+              <a href="{% url 'tag_details' tag.id %}" class="tag-link">
+                #{{ tag.title }}
+              </a>
+            </td>
+            <td class="tag-count-cell">
+              <a href="{% url 'tag_details' tag.id %}">
+                <img src="{% static 'notes/img/link.png' %}" alt="View notes" class="tag-link-icon">
+              </a>
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    
+    <div class="back-button-container">
+      <a href="{% url 'index' %}" class="back-to-home">Voltar para Notes</a>
+    </div>
+  </div>
+{% endblock %}

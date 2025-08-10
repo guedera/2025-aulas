@@ -1,0 +1,24 @@
+API:
+
+    headers = {
+        'x-rapidapi-key': "5261b8ccc9msh1c2ed604fa10bc5p190f18jsn8a310f22c849",
+        'x-rapidapi-host': "hyprace-api.p.rapidapi.com"
+    }
+
+Cores:
+
+    Vermelho F1	#FF1801	A cor principal da marca, usada no logo e destaques
+    Preto	#000000	Muito usado como fundo e contraste
+    Branco	#FFFFFF	Usado em tipografia e elementos neutros
+    Cinza escuro	#1C1C1C	Usado em fundos e layouts digitais
+    Cinza claro	#E5E5E5	Em elementos auxiliares e gráficos
+
+Fonte:
+
+    Uma alternativa visual parecida (não oficial) é a "Formula1 Display", feita por fãs.
+
+    Outra fonte parecida e mais comum é a "Eurostile Extended", que lembra o estilo largo e aerodinâmico usado em algumas artes da F1 antiga.
+
+Logos:
+
+    https://icons8.com/icons/set/formula-1

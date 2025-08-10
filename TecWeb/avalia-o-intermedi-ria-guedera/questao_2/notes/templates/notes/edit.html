@@ -1,0 +1,43 @@
+{% extends "notes/base.html" %}
+{% load static %}
+
+{% block content %}
+  <form class="form-card" method="post">
+    {% csrf_token %}
+    <div class="form-group">
+      <label for="titulo"></label>
+      <input
+        class="form-card-title"
+        id="titulo"
+        type="text"
+        name="titulo"
+        value="{{ note.title }}"
+      />
+    </div>
+    <div class="form-group">
+      <label for="detalhes"></label>
+      <textarea class="autoresize" id="detalhes" name="detalhes">{{ note.content }}</textarea>
+    </div>
+    <div class="form-group">
+      <label for="tags"></label>
+      <input
+        class="form-card-tag-input"
+        id="tags"
+        type="text"
+        name="tags"
+        value="{{ note.tag.title|default:'' }}"
+        placeholder="Adicione uma tag"
+      />
+    </div>
+    <div class="btn-edit-form">
+      <a href="{% url 'index' %}">
+        <button class="edit-cancel" type="button" name="edit_cancel">
+          Cancelar
+        </button>
+      </a>
+      <button class="edit-save" type="submit" name="edit_save">
+        Salvar
+      </button>
+    </div>
+  </form>
+{% endblock %}

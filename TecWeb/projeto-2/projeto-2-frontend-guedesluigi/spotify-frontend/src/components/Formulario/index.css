@@ -1,0 +1,53 @@
+.form-card {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 10px 15px;
+  width: 460px;
+  margin: 20px auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-card-title {
+  font-family: 'SF Pro', -apple-system, BlinkMacSystemFont, 'JetBrains Mono', monospace;
+  padding: 12px;
+  border: none;
+  border-radius: 20px;
+  flex-grow: 1;
+  margin-right: 10px;
+  font-size: 16px;
+  outline: none;
+  background-color: transparent;
+}
+
+.btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  transition: transform 0.2s;
+  min-width: 40px;
+  min-height: 40px;
+  box-sizing: border-box;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.btn img,
+.btn-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.loading-text {
+  font-family: 'SF Pro', -apple-system, BlinkMacSystemFont, 'JetBrains Mono', monospace;
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+}

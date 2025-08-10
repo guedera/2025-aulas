@@ -1,0 +1,35 @@
+{% extends "notes/base.html" %}
+{% load static %}
+
+{% block content %}
+  <div class="tag-header">
+    <div class="tag-navigation">
+      <a href="{% url 'tags' %}" class="back-to-tags">Voltar para Tags</a>
+      <a href="{% url 'index' %}" class="back-to-home">Voltar para Notes</a>
+    </div>
+  </div>
+
+  <div class="card-container">
+    {% for note in notes %}
+      <div class="card {% if forloop.counter|divisibleby:5 %}card-color-5{% elif forloop.counter|divisibleby:4 %}card-color-4{% elif forloop.counter|divisibleby:3 %}card-color-3{% elif forloop.counter|divisibleby:2 %}card-color-2{% else %}card-color-1{% endif %}">
+        <div class="card-header">
+          <h5 class="card-title">{{ note.title }}</h5>
+          <div class="card-buttons">
+            <a href="{% url 'update' note.id %}" class="btn-edit">
+              <img src="{% static 'notes/img/img-edit.png' %}" alt="Edit" class="img-edit">
+            </a>
+            <a href="{% url 'delete' note.id %}" class="btn-delete">
+              <img src="{% static 'notes/img/img-delete.png' %}" alt="Delete" class="img-delete">
+            </a>
+          </div>
+        </div>
+        <div class="card-content">
+          <p>{{ note.content }}</p>
+        </div>
+        <a href="{% url 'tag_details' tag.id %}">
+          <div class="card-tag">#{{ tag.title }}</div>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+{% endblock %}

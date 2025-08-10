@@ -1,0 +1,115 @@
+.cadastro-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  margin-top: 80px;
+  color: white;
+  text-align: center;
+}
+
+.cadastro-wrapper h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.cadastro-form {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza os elementos dentro do form */
+}
+
+.cadastro-form label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.cadastro-form p {
+  margin: 0 0 8px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.cadastro-form input[type="text"],
+.cadastro-form input[type="email"],
+.cadastro-form input[type="password"] {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.05);
+  color: white;
+  outline: none;
+  transition: border-color 0.3s;
+  text-align: center;
+}
+
+.cadastro-form input:focus {
+  border-color: #ff0000;
+  box-shadow: 0 0 8px #ff0000;
+}
+
+.cadastro-button-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.cadastro-button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  flex: 1;
+}
+
+.cadastro-button:hover {
+  background-color: rgba(255, 0, 0, 0.1);
+  box-shadow: 0 0 10px #ff0000, 0 0 20px rgba(255, 0, 0, 0.5);
+  border-color: rgba(255, 0, 0, 0.6);
+  transform: translateY(-2px);
+}
+
+.cadastro-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 0, 0, 0.2),
+    transparent
+  );
+  transition: 0.5s;
+}
+
+.cadastro-button:hover::before {
+  left: 100%;
+}

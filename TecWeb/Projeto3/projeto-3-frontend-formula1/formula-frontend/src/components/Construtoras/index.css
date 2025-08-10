@@ -1,0 +1,131 @@
+/* Styling buttons in the Construtoras page to match header buttons */
+.construtoras-navigation-button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Russo One', sans-serif; /* Add consistent font-family */
+}
+
+.construtoras-navigation-button:hover {
+  background-color: rgba(var(--team-color-rgb, 255, 0, 0), 0.1);
+  box-shadow: 0 0 10px var(--team-color, #ff0000), 0 0 20px var(--team-color, #ff0000);
+  border-color: var(--team-color, #ff0000);
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.construtoras-navigation-button:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(var(--team-color-rgb, 255, 0, 0), 0.2),
+    transparent
+  );
+  transition: 0.5s;
+}
+
+.construtoras-navigation-button:hover:before {
+  left: 100%;
+}
+
+/* Added styles for removing bullets and centering content */
+.construtoras-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Make buttons fill their grid cells nicely */
+.construtoras-list li {
+  display: flex;
+}
+
+/* Direct targeting of lists only in the construtoras component */
+.construtoras-container ul, 
+.construtoras-container ol {
+  list-style-type: none !important;
+  padding: 0;
+}
+
+.construtoras-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Specific content class for Construtoras page only */
+.content-construtoras {
+  padding-top: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Improved container to center only in the construtoras page */
+.construtoras-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Specific wrapper for construtoras page content only */
+.construtoras-page-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 80px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 992px) {
+  .construtoras-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .construtoras-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .construtoras-list {
+    grid-template-columns: 1fr;
+  }
+}
